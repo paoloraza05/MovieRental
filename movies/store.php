@@ -11,3 +11,5 @@ mysqli_query($conn, "INSERT INTO movies
     VALUES ('$title', '$genre', '$release_year', '$rental_rate')");
 
 header("Location: index.php");
+
+
